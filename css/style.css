@@ -5,6 +5,9 @@ $breakpoint arguement choices:
 -tab-land
 -big-desktop
 */
+/*
+    order base + typo > general layout + grid > page layout > components
+*/
 *, *::after, *::before {
   margin: 0;
   padding: 0;
