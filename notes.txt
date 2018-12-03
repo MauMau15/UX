@@ -1,0 +1,22 @@
+responsive design
+    -fluid layouts
+    -media queries
+    -responsive images
+    -correct units
+    -desktop first  mobile-first
+
+codigo mantenible y escalble
+    -limpio
+    -facil de entender
+    -reusable
+    -buena organizacion de archivos
+    -buena estructura de html
+
+comportamiento de la web
+
+-responsive design
+    usar porcentajes en lugar de pixeles
+    imagenes flexibles y responsivas --> se deben de adaptar correctamente con el viewport
+    uso de media querys
+
+  
