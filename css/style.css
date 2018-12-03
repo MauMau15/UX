@@ -35,6 +35,12 @@ html {
 
 body {
   box-sizing: border-box;
+  padding: 3rem;
+}
+@media (max-width: 56.25em) {
+  body {
+    padding: 0;
+  }
 }
 
 @keyframes moveInLeft {
@@ -93,7 +99,6 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  padding: 3rem;
   color: #777777;
 }
 
@@ -114,12 +119,24 @@ body {
   /*animation-iteration-count: 3; veces que sucede una animacion
   /*animation-delay: 1s; detiene la animacion*/
 }
+@media (max-width: 56.25em) {
+  .heading-primary--main {
+    letter-spacing: 1rem;
+    font-size: 4rem;
+  }
+}
 .heading-primary--sub {
   display: block;
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1.5rem;
   animation: moveInRight 2s ease-out;
+}
+@media (max-width: 56.25em) {
+  .heading-primary--sub {
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+  }
 }
 
 .heading-secondary {
@@ -132,6 +149,16 @@ body {
   color: transparent;
   letter-spacing: 0.2rem;
   transition: all 0.2s;
+}
+@media (max-width: 56.25em) {
+  .heading-secondary {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .heading-secondary {
+    font-size: 2rem;
+  }
 }
 .heading-secondary:hover {
   transform: skewY(2deg) skewX(15deg) scale(1.1);
